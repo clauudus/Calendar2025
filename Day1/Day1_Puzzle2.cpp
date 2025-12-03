@@ -44,6 +44,3 @@ int main()
 
   return 0;
 }
-
-
-//3828 was a too low answear
