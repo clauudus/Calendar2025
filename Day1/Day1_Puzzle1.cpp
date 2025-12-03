@@ -1,4 +1,3 @@
-// Type your code here, or load an example.
 #include <iostream>
 #include <fstream>
 
@@ -39,4 +38,5 @@ int main()
     cout << count0;
 
     return 0;
+
 }
