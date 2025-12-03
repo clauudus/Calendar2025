@@ -26,15 +26,13 @@ int main()
     {
       for(int i = 0; i < steps; i++)
       {
-        pos--;
-        pos %= 100;
-        if(pos < 100) pos += 100;
+        pos = (pos - 1 + 100) % 100;
         if (pos == 0) count0++;
       }
     } else if (dir == 'R') { //same here, but with another text file could go with 'r'
         for(int i = 0; i < steps; i++)
         {
-          pos = (pos + steps) % 100;
+          pos = (pos + 1) % 100;
           if (pos == 0) count0++;
         }
     } else {
@@ -46,5 +44,6 @@ int main()
 
   return 0;
 }
+
 
 //3828 was a too low answear
