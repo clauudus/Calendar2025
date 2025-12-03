@@ -1,4 +1,3 @@
-// Type your code here, or load an example.
 #include <iostream>
 #include <fstream>
 
@@ -44,3 +43,4 @@ int main()
 
   return 0;
 }
+
